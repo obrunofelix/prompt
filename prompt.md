@@ -1,28 +1,3 @@
-Preciso de ajuda para desenvolver uma API de chatbot com o personagem Goku, utilizando Laravel (PHP 8.1.10). A ideia é criar um chatbot simples que possa responder a perguntas relacionadas ao Goku de Dragon Ball, como se ele estivesse interagindo com os usuários em um bate-papo. A API deve ser construída usando as melhores práticas do Laravel para garantir segurança e desempenho. Aqui estão os requisitos principais:
-
-
-
-Estrutura do Laravel: Utilizar Laravel na versão mais recente compatível com PHP 8.1.10.
-
-Endpoints da API: Criar um endpoint para iniciar a conversa com o Goku e outro para enviar mensagens ao chatbot.
-
-Endpoint /goku/start para iniciar o chatbot.
-
-Endpoint /goku/message para enviar uma mensagem e receber uma resposta do Goku.
-
-Respostas Personalizadas: O chatbot deve responder com falas do Goku ou baseadas no seu comportamento típico na série. Exemplo: "Eu sou o Goku! Kamehameha!" ou "Vamos lutar!".
-
-Modelo de Dados: Criar um modelo para armazenar as interações dos usuários, como um banco de dados simples de conversas.
-
-Autenticação: Incluir uma camada de autenticação, como um token Bearer para segurança.
-
-Middleware: Implementar middleware de segurança, se necessário, para garantir que as interações sejam feitas por usuários autenticados.
-
-Documentação da API: Gerar documentação da API com exemplos de como utilizá-la.
-
-Gostaria de sugestões de como estruturar o projeto e os modelos, além de dicas sobre como integrar o chatbot com respostas personalizadas do Goku. Como podemos começar com os primeiros passos?
-
-
 
 a view disponibilizada pelo professor segue a seguinte lógica
 
